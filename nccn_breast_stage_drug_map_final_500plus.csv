@@ -1,0 +1,551 @@
+Stage,Subtype,OncotypeDx,gBRCA,PDL1,ResidualDisease,RecommendedRegimen,TreatmentLine,NCCN_Category,Trial,정식_고시번호,정식_급여여부,Dosage_Type,Dosage_Value,Unit_Price,급여여부,권장용량_표시,단가_표시
+Stage 0,HER2-low,<11,Yes,Positive,No,Capecitabine,1st line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HER2-low,<11,No,Positive,Yes,Capecitabine,1st line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HER2-low,<11,Yes,Negative,Yes,Olaparib,1st line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HER2-low,<11,Yes,Positive,No,Olaparib,Neoadjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HER2-low,<11,No,Positive,Yes,Pembrolizumab,2nd+ line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,HER2-low,<11,Yes,Positive,No,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,HER2-low,<11,No,Positive,Yes,Pembrolizumab,2nd+ line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,HER2-low,<11,Yes,Positive,Yes,Sacituzumab,Adjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HER2-low,<11,No,Positive,No,Sacituzumab,Adjuvant,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HER2-low,<11,Yes,Negative,No,Sacituzumab,2nd+ line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HER2-low,<11,No,Negative,No,Sacituzumab,Adjuvant,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HER2-low,<11,No,Negative,No,Tamoxifen,1st line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage 0,HER2-low,<11,Yes,Negative,Yes,Tamoxifen,2nd+ line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage 0,HER2-low,<11,Yes,Positive,Yes,Tamoxifen,2nd+ line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage 0,HR+/HER2+,<11,No,Negative,Yes,Capecitabine,1st line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HR+/HER2+,<11,No,Positive,No,Capecitabine,2nd+ line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HR+/HER2+,<11,Yes,Positive,No,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HR+/HER2+,<11,Yes,Positive,Yes,Sacituzumab,1st line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HR+/HER2-,<11,Yes,Negative,Yes,Capecitabine,2nd+ line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HR+/HER2-,<11,No,Positive,No,Capecitabine,Neoadjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HR+/HER2-,<11,No,Positive,No,Capecitabine,1st line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HR+/HER2-,<11,Yes,Negative,Yes,Capecitabine,Neoadjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HR+/HER2-,<11,Yes,Negative,Yes,Olaparib,2nd+ line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HR+/HER2-,<11,No,Positive,No,Olaparib,2nd+ line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HR+/HER2-,<11,No,Positive,Yes,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,HR+/HER2-,<11,No,Positive,Yes,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,HR+/HER2-,<11,Yes,Negative,Yes,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,HR+/HER2-,<11,Yes,Negative,Yes,Pembrolizumab,1st line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,HR+/HER2-,<11,No,Positive,Yes,Sacituzumab,Adjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HR+/HER2-,<11,No,Negative,No,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HR+/HER2-,<11,Yes,Negative,No,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HR+/HER2-,<11,Yes,Negative,No,Tamoxifen,Adjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage 0,HR+/HER2-,<11,Yes,Negative,Yes,Tamoxifen,1st line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage 0,HR+/HER2-,<11,No,Negative,No,Tamoxifen,Neoadjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage 0,HR+/HER2-,<11,No,Positive,Yes,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage 0,HR-/HER2+,<11,Yes,Positive,Yes,Capecitabine,2nd+ line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HR-/HER2+,<11,No,Positive,Yes,Capecitabine,Neoadjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HR-/HER2+,<11,No,Negative,Yes,Capecitabine,2nd+ line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HR-/HER2+,<11,No,Negative,Yes,Capecitabine,2nd+ line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,HR-/HER2+,<11,No,Positive,Yes,Olaparib,Adjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HR-/HER2+,<11,No,Positive,No,Olaparib,Adjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HR-/HER2+,<11,Yes,Positive,No,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HR-/HER2+,<11,Yes,Positive,Yes,Olaparib,2nd+ line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HR-/HER2+,<11,No,Negative,Yes,Olaparib,Neoadjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HR-/HER2+,<11,Yes,Negative,No,Olaparib,Adjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HR-/HER2+,<11,Yes,Negative,Yes,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,HR-/HER2+,<11,No,Negative,No,Pembrolizumab,Adjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,HR-/HER2+,<11,No,Positive,Yes,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,HR-/HER2+,<11,No,Positive,Yes,Pembrolizumab,Adjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,HR-/HER2+,<11,No,Negative,Yes,Sacituzumab,1st line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HR-/HER2+,<11,No,Negative,No,Sacituzumab,1st line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HR-/HER2+,<11,Yes,Positive,No,Sacituzumab,Neoadjuvant,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HR-/HER2+,<11,No,Negative,Yes,Sacituzumab,1st line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,HR-/HER2+,<11,No,Negative,Yes,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,TNBC,<11,Yes,Positive,No,Capecitabine,1st line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,TNBC,<11,No,Negative,Yes,Capecitabine,1st line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage 0,TNBC,<11,Yes,Negative,Yes,Olaparib,Neoadjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,TNBC,<11,Yes,Negative,Yes,Olaparib,2nd+ line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage 0,TNBC,<11,No,Positive,No,Pembrolizumab,Adjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage 0,TNBC,<11,No,Negative,No,Sacituzumab,Neoadjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,TNBC,<11,Yes,Positive,No,Sacituzumab,Adjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,TNBC,<11,No,Negative,Yes,Sacituzumab,Adjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,TNBC,<11,Yes,Negative,Yes,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage 0,TNBC,<11,Yes,Negative,No,Tamoxifen,Neoadjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HER2-low,-,No,Negative,Yes,Capecitabine,Adjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HER2-low,-,Yes,Positive,No,Capecitabine,Adjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HER2-low,-,Yes,Negative,Yes,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HER2-low,-,Yes,Positive,Yes,Olaparib,Adjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HER2-low,-,Yes,Negative,No,Olaparib,Adjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HER2-low,-,Yes,Positive,Yes,Olaparib,2nd+ line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HER2-low,-,No,Positive,No,Olaparib,1st line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HER2-low,-,No,Negative,Yes,Pembrolizumab,Neoadjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HER2-low,-,Yes,Negative,No,Pembrolizumab,2nd+ line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HER2-low,-,Yes,Positive,Yes,Pembrolizumab,Neoadjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HER2-low,-,No,Positive,Yes,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HER2-low,-,Yes,Negative,No,Pembrolizumab,Neoadjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HER2-low,-,Yes,Positive,Yes,Sacituzumab,2nd+ line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HER2-low,-,Yes,Positive,Yes,Sacituzumab,2nd+ line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HER2-low,-,No,Negative,Yes,Sacituzumab,2nd+ line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HER2-low,-,Yes,Negative,No,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HER2-low,-,No,Negative,Yes,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HER2-low,-,Yes,Positive,No,Sacituzumab,2nd+ line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HER2-low,-,Yes,Negative,Yes,Tamoxifen,2nd+ line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2+,-,No,Positive,Yes,Capecitabine,1st line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR+/HER2+,-,Yes,Negative,No,Capecitabine,Adjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR+/HER2+,-,Yes,Positive,Yes,Capecitabine,Adjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR+/HER2+,-,No,Positive,No,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR+/HER2+,-,No,Positive,No,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR+/HER2+,-,Yes,Negative,No,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR+/HER2+,-,No,Positive,No,Olaparib,1st line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR+/HER2+,-,Yes,Positive,Yes,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR+/HER2+,-,Yes,Negative,No,Olaparib,2nd+ line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR+/HER2+,-,Yes,Negative,No,Pembrolizumab,Neoadjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HR+/HER2+,-,Yes,Positive,Yes,Pembrolizumab,Adjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HR+/HER2+,-,Yes,Negative,No,Pembrolizumab,Neoadjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HR+/HER2+,-,No,Positive,Yes,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HR+/HER2+,-,No,Negative,No,Sacituzumab,1st line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HR+/HER2+,-,No,Negative,Yes,Sacituzumab,2nd+ line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HR+/HER2+,-,No,Positive,No,Tamoxifen,Neoadjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2+,-,No,Negative,Yes,Tamoxifen,2nd+ line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2+,-,No,Positive,No,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2+,-,Yes,Negative,No,Tamoxifen,1st line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2+,-,Yes,Negative,Yes,Tamoxifen,2nd+ line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2-,11-25,No,Negative,No,Capecitabine,1st line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR+/HER2-,11-25,Yes,Positive,No,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR+/HER2-,11-25,No,Positive,No,Capecitabine,2nd+ line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR+/HER2-,11-25,Yes,Negative,Yes,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR+/HER2-,11-25,Yes,Positive,No,Capecitabine,2nd+ line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR+/HER2-,11-25,Yes,Negative,No,Capecitabine,Adjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR+/HER2-,11-25,Yes,Positive,Yes,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR+/HER2-,11-25,No,Negative,No,Olaparib,2nd+ line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR+/HER2-,11-25,No,Negative,Yes,Olaparib,2nd+ line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR+/HER2-,11-25,No,Positive,No,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HR+/HER2-,11-25,No,Negative,Yes,Pembrolizumab,Neoadjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HR+/HER2-,11-25,No,Negative,Yes,Pembrolizumab,2nd+ line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HR+/HER2-,11-25,No,Negative,No,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HR+/HER2-,11-25,No,Negative,Yes,Sacituzumab,Neoadjuvant,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HR+/HER2-,11-25,No,Negative,Yes,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HR+/HER2-,11-25,Yes,Positive,Yes,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HR+/HER2-,11-25,Yes,Negative,Yes,Tamoxifen,Neoadjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2-,11-25,Yes,Positive,No,Tamoxifen,Neoadjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2-,11-25,No,Negative,No,Tamoxifen,2nd+ line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2-,11-25,No,Negative,Yes,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2-,11-25,No,Positive,Yes,Tamoxifen,Neoadjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR+/HER2-,11-25,Yes,Negative,No,Tamoxifen,1st line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR-/HER2+,-,Yes,Negative,Yes,Capecitabine,Neoadjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR-/HER2+,-,No,Positive,No,Capecitabine,Neoadjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR-/HER2+,-,No,Negative,No,Capecitabine,Neoadjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,HR-/HER2+,-,Yes,Positive,No,Olaparib,Neoadjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR-/HER2+,-,No,Positive,Yes,Olaparib,1st line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR-/HER2+,-,Yes,Negative,No,Olaparib,Neoadjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR-/HER2+,-,Yes,Positive,Yes,Olaparib,1st line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR-/HER2+,-,No,Positive,No,Olaparib,Neoadjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,HR-/HER2+,-,Yes,Positive,No,Pembrolizumab,Adjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HR-/HER2+,-,Yes,Positive,Yes,Pembrolizumab,1st line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,HR-/HER2+,-,No,Positive,Yes,Sacituzumab,1st line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HR-/HER2+,-,No,Positive,No,Sacituzumab,Neoadjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HR-/HER2+,-,No,Positive,No,Sacituzumab,2nd+ line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,HR-/HER2+,-,Yes,Positive,Yes,Tamoxifen,2nd+ line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR-/HER2+,-,No,Positive,No,Tamoxifen,1st line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR-/HER2+,-,No,Negative,Yes,Tamoxifen,1st line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR-/HER2+,-,No,Positive,Yes,Tamoxifen,1st line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR-/HER2+,-,No,Positive,Yes,Tamoxifen,Neoadjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,HR-/HER2+,-,No,Negative,No,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,TNBC,-,No,Negative,No,Capecitabine,Neoadjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,TNBC,-,No,Negative,Yes,Capecitabine,Neoadjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,TNBC,-,Yes,Negative,Yes,Pembrolizumab,Neoadjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,TNBC,-,No,Positive,No,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,TNBC,-,Yes,Negative,No,Pembrolizumab,Neoadjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,TNBC,-,Yes,Positive,No,Olaparib,Neoadjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,TNBC,-,Yes,Negative,Yes,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,TNBC,-,Yes,Negative,Yes,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,TNBC,-,No,Negative,Yes,Olaparib,Adjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,TNBC,-,Yes,Negative,No,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,TNBC,-,Yes,Negative,No,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage I,TNBC,-,Yes,Negative,Yes,Pembrolizumab,Adjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage I,TNBC,-,Yes,Negative,No,Sacituzumab,Adjuvant,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,TNBC,-,Yes,Negative,No,Tamoxifen,2nd+ line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,TNBC,-,Yes,Positive,Yes,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,TNBC,-,Yes,Positive,Yes,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,TNBC,-,No,Positive,No,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,TNBC,-,Yes,Negative,No,Capecitabine,1st line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage I,TNBC,-,Yes,Negative,Yes,Sacituzumab,1st line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage I,TNBC,-,No,Negative,No,Tamoxifen,1st line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,TNBC,-,No,Positive,Yes,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage I,TNBC,-,Yes,Positive,Yes,Tamoxifen,Neoadjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HER2-low,-,No,Negative,No,Capecitabine,1st line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HER2-low,-,No,Negative,No,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HER2-low,-,No,Negative,Yes,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HER2-low,-,Yes,Negative,Yes,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HER2-low,-,No,Negative,No,Olaparib,1st line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HER2-low,-,No,Positive,Yes,Olaparib,1st line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HER2-low,-,No,Positive,No,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HER2-low,-,No,Positive,Yes,Pembrolizumab,2nd+ line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HER2-low,-,No,Positive,Yes,Pembrolizumab,1st line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HER2-low,-,No,Positive,Yes,Sacituzumab,Neoadjuvant,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HER2-low,-,Yes,Positive,No,Sacituzumab,Adjuvant,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HER2-low,-,No,Negative,Yes,Sacituzumab,Adjuvant,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HER2-low,-,Yes,Negative,No,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HER2-low,-,Yes,Negative,Yes,Sacituzumab,Neoadjuvant,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HER2-low,-,Yes,Positive,No,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HER2-low,-,Yes,Positive,Yes,Sacituzumab,Neoadjuvant,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HER2-low,-,Yes,Positive,No,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HER2-low,-,No,Negative,Yes,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HER2-low,-,Yes,Negative,Yes,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HER2-low,-,No,Positive,No,Tamoxifen,2nd+ line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HER2-low,-,Yes,Positive,No,Tamoxifen,1st line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HER2-low,-,Yes,Positive,Yes,Tamoxifen,Neoadjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HER2-low,-,Yes,Negative,Yes,Tamoxifen,Adjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HR+/HER2+,-,No,Positive,No,Capecitabine,Adjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR+/HER2+,-,Yes,Negative,No,Capecitabine,1st line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR+/HER2+,-,No,Negative,Yes,Capecitabine,2nd+ line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR+/HER2+,-,No,Negative,No,Capecitabine,Adjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR+/HER2+,-,No,Negative,No,Olaparib,1st line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HR+/HER2+,-,Yes,Positive,No,Olaparib,1st line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HR+/HER2+,-,Yes,Positive,Yes,Pembrolizumab,Adjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR+/HER2+,-,No,Positive,Yes,Pembrolizumab,1st line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR+/HER2+,-,No,Negative,No,Sacituzumab,Adjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HR+/HER2+,-,Yes,Negative,Yes,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HR+/HER2+,-,No,Negative,No,Tamoxifen,2nd+ line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HR+/HER2-,11-25,No,Positive,Yes,Capecitabine,Neoadjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR+/HER2-,11-25,No,Positive,Yes,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR+/HER2-,11-25,Yes,Positive,Yes,Capecitabine,1st line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR+/HER2-,11-25,No,Positive,No,Olaparib,1st line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HR+/HER2-,11-25,No,Positive,No,Pembrolizumab,1st line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR+/HER2-,11-25,No,Positive,Yes,Pembrolizumab,1st line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR+/HER2-,11-25,No,Positive,No,Pembrolizumab,Adjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR+/HER2-,11-25,No,Negative,No,Pembrolizumab,Adjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR+/HER2-,11-25,No,Negative,No,Pembrolizumab,2nd+ line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR+/HER2-,11-25,Yes,Negative,No,Sacituzumab,1st line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HR+/HER2-,11-25,Yes,Negative,No,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HR+/HER2-,11-25,Yes,Negative,No,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HR+/HER2-,11-25,Yes,Negative,Yes,Tamoxifen,2nd+ line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HR-/HER2+,-,No,Negative,Yes,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR-/HER2+,-,No,Positive,Yes,Capecitabine,Adjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR-/HER2+,-,No,Negative,No,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR-/HER2+,-,Yes,Negative,No,Capecitabine,2nd+ line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR-/HER2+,-,No,Positive,Yes,Capecitabine,Neoadjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR-/HER2+,-,Yes,Positive,No,Capecitabine,Neoadjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR-/HER2+,-,No,Positive,Yes,Capecitabine,2nd+ line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,HR-/HER2+,-,Yes,Negative,Yes,Olaparib,1st line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HR-/HER2+,-,Yes,Positive,Yes,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HR-/HER2+,-,No,Positive,No,Olaparib,1st line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HR-/HER2+,-,Yes,Positive,No,Olaparib,1st line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HR-/HER2+,-,Yes,Negative,Yes,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,HR-/HER2+,-,No,Positive,No,Pembrolizumab,2nd+ line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR-/HER2+,-,No,Positive,No,Pembrolizumab,Neoadjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR-/HER2+,-,Yes,Negative,Yes,Pembrolizumab,Adjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR-/HER2+,-,Yes,Negative,Yes,Pembrolizumab,Adjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR-/HER2+,-,No,Negative,No,Pembrolizumab,1st line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,HR-/HER2+,-,No,Negative,Yes,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HR-/HER2+,-,No,Positive,No,Sacituzumab,2nd+ line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HR-/HER2+,-,Yes,Positive,Yes,Sacituzumab,Adjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HR-/HER2+,-,No,Negative,No,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HR-/HER2+,-,Yes,Negative,Yes,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HR-/HER2+,-,Yes,Negative,Yes,Sacituzumab,Adjuvant,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage II,HR-/HER2+,-,Yes,Positive,Yes,Tamoxifen,2nd+ line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HR-/HER2+,-,Yes,Positive,No,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HR-/HER2+,-,Yes,Negative,Yes,Tamoxifen,Neoadjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,HR-/HER2+,-,No,Positive,Yes,Tamoxifen,2nd+ line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,TNBC,-,No,Negative,Yes,Capecitabine,Adjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,TNBC,-,Yes,Negative,Yes,Capecitabine,1st line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage II,TNBC,-,No,Positive,No,Olaparib,1st line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,TNBC,-,No,Negative,Yes,Olaparib,Adjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,TNBC,-,No,Positive,No,Olaparib,Neoadjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,TNBC,-,Yes,Positive,No,Olaparib,1st line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,TNBC,-,No,Negative,Yes,Olaparib,2nd+ line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage II,TNBC,-,Yes,Positive,Yes,Pembrolizumab,1st line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,TNBC,-,No,Negative,Yes,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,TNBC,-,No,Negative,Yes,Pembrolizumab,Neoadjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,TNBC,-,Yes,Positive,No,Pembrolizumab,Adjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,TNBC,-,Yes,Negative,Yes,Pembrolizumab,Adjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage II,TNBC,-,No,Negative,No,Tamoxifen,Adjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage II,TNBC,-,Yes,Negative,Yes,Tamoxifen,1st line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HER2-low,-,No,Negative,No,Capecitabine,2nd+ line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HER2-low,-,No,Negative,Yes,Capecitabine,2nd+ line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HER2-low,-,No,Negative,No,Capecitabine,2nd+ line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HER2-low,-,No,Negative,Yes,Capecitabine,1st line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HER2-low,-,No,Negative,Yes,Capecitabine,2nd+ line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HER2-low,-,Yes,Positive,Yes,Capecitabine,Neoadjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HER2-low,-,Yes,Positive,No,Olaparib,Neoadjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HER2-low,-,No,Negative,No,Olaparib,2nd+ line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HER2-low,-,No,Negative,Yes,Olaparib,2nd+ line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HER2-low,-,No,Positive,Yes,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HER2-low,-,No,Negative,No,Olaparib,1st line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HER2-low,-,No,Negative,No,Olaparib,Neoadjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HER2-low,-,No,Positive,Yes,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HER2-low,-,Yes,Negative,No,Pembrolizumab,Adjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HER2-low,-,Yes,Negative,Yes,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HER2-low,-,No,Negative,No,Pembrolizumab,Neoadjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HER2-low,-,Yes,Positive,No,Pembrolizumab,Neoadjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HER2-low,-,Yes,Positive,Yes,Pembrolizumab,Adjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HER2-low,-,No,Positive,No,Sacituzumab,1st line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,Yes,Positive,Yes,Sacituzumab,Neoadjuvant,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,Yes,Negative,No,Sacituzumab,2nd+ line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,Yes,Positive,Yes,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,Yes,Positive,No,Sacituzumab,Neoadjuvant,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,No,Negative,No,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,No,Negative,No,Sacituzumab,Adjuvant,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,Yes,Positive,Yes,Sacituzumab,Adjuvant,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,Yes,Positive,No,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,No,Positive,No,Sacituzumab,1st line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,No,Positive,Yes,Sacituzumab,Adjuvant,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HER2-low,-,No,Negative,No,Tamoxifen,Neoadjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HER2-low,-,Yes,Positive,No,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HER2-low,-,No,Negative,No,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HER2-low,-,No,Negative,No,Tamoxifen,1st line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HER2-low,-,Yes,Negative,Yes,Tamoxifen,Neoadjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR+/HER2+,-,No,Negative,No,Capecitabine,2nd+ line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HR+/HER2+,-,Yes,Negative,No,Capecitabine,2nd+ line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HR+/HER2+,-,Yes,Negative,Yes,Capecitabine,Neoadjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HR+/HER2+,-,No,Positive,Yes,Olaparib,2nd+ line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR+/HER2+,-,Yes,Positive,Yes,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR+/HER2+,-,Yes,Positive,Yes,Olaparib,1st line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR+/HER2+,-,No,Negative,No,Olaparib,2nd+ line,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR+/HER2+,-,No,Negative,No,Olaparib,Adjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR+/HER2+,-,No,Positive,No,Olaparib,2nd+ line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR+/HER2+,-,No,Negative,No,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2+,-,No,Positive,Yes,Pembrolizumab,Neoadjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2+,-,No,Positive,Yes,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2+,-,Yes,Positive,No,Sacituzumab,Adjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HR+/HER2+,-,Yes,Positive,Yes,Sacituzumab,Neoadjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HR+/HER2+,-,No,Negative,No,Tamoxifen,Neoadjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR+/HER2+,-,No,Negative,No,Tamoxifen,Adjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR+/HER2+,-,No,Negative,Yes,Tamoxifen,1st line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR+/HER2+,-,No,Negative,No,Tamoxifen,2nd+ line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR+/HER2-,≥26,No,Positive,No,Capecitabine,Neoadjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HR+/HER2-,≥26,No,Positive,Yes,Capecitabine,Neoadjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HR+/HER2-,≥26,Yes,Positive,No,Capecitabine,2nd+ line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HR+/HER2-,≥26,No,Positive,No,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HR+/HER2-,≥26,Yes,Positive,Yes,Capecitabine,2nd+ line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HR+/HER2-,≥26,No,Positive,Yes,Capecitabine,1st line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HR+/HER2-,≥26,No,Positive,No,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR+/HER2-,≥26,Yes,Positive,Yes,Olaparib,2nd+ line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR+/HER2-,≥26,No,Negative,No,Olaparib,2nd+ line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR+/HER2-,≥26,No,Positive,No,Pembrolizumab,Neoadjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2-,≥26,No,Positive,Yes,Pembrolizumab,Adjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2-,≥26,Yes,Positive,No,Pembrolizumab,2nd+ line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2-,≥26,Yes,Negative,No,Pembrolizumab,2nd+ line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2-,≥26,Yes,Positive,No,Pembrolizumab,Adjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2-,≥26,Yes,Negative,No,Pembrolizumab,2nd+ line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2-,≥26,No,Positive,No,Pembrolizumab,1st line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2-,≥26,Yes,Positive,No,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2-,≥26,Yes,Positive,Yes,Pembrolizumab,Adjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2-,≥26,No,Positive,No,Pembrolizumab,Neoadjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR+/HER2-,≥26,Yes,Positive,No,Sacituzumab,2nd+ line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HR+/HER2-,≥26,Yes,Negative,No,Sacituzumab,2nd+ line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HR+/HER2-,≥26,Yes,Positive,No,Tamoxifen,1st line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR+/HER2-,≥26,Yes,Positive,Yes,Tamoxifen,1st line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR+/HER2-,≥26,Yes,Positive,Yes,Tamoxifen,2nd+ line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR+/HER2-,≥26,Yes,Negative,Yes,Tamoxifen,Adjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR-/HER2+,-,Yes,Negative,No,Capecitabine,2nd+ line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,HR-/HER2+,-,No,Negative,No,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR-/HER2+,-,Yes,Positive,No,Olaparib,1st line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR-/HER2+,-,Yes,Negative,No,Olaparib,Adjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR-/HER2+,-,Yes,Negative,Yes,Olaparib,1st line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR-/HER2+,-,No,Positive,Yes,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,HR-/HER2+,-,Yes,Negative,Yes,Pembrolizumab,1st line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR-/HER2+,-,No,Negative,Yes,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR-/HER2+,-,Yes,Positive,Yes,Pembrolizumab,1st line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR-/HER2+,-,No,Positive,Yes,Pembrolizumab,1st line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR-/HER2+,-,Yes,Negative,Yes,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR-/HER2+,-,Yes,Positive,No,Pembrolizumab,2nd+ line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR-/HER2+,-,No,Negative,No,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,HR-/HER2+,-,No,Negative,No,Sacituzumab,Neoadjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HR-/HER2+,-,No,Positive,No,Sacituzumab,1st line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HR-/HER2+,-,No,Negative,No,Sacituzumab,1st line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HR-/HER2+,-,Yes,Negative,Yes,Sacituzumab,2nd+ line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,HR-/HER2+,-,No,Negative,Yes,Tamoxifen,1st line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR-/HER2+,-,No,Negative,No,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR-/HER2+,-,Yes,Negative,No,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR-/HER2+,-,Yes,Negative,Yes,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,HR-/HER2+,-,No,Negative,Yes,Tamoxifen,1st line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,TNBC,-,Yes,Positive,No,Capecitabine,Neoadjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,TNBC,-,Yes,Negative,No,Capecitabine,Adjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,TNBC,-,Yes,Negative,No,Capecitabine,Adjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,TNBC,-,No,Positive,No,Capecitabine,2nd+ line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage III,TNBC,-,No,Positive,Yes,Olaparib,Neoadjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,TNBC,-,No,Negative,Yes,Olaparib,1st line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,TNBC,-,Yes,Positive,No,Olaparib,Neoadjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,TNBC,-,Yes,Positive,No,Olaparib,Adjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,TNBC,-,Yes,Negative,No,Olaparib,1st line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,TNBC,-,No,Positive,Yes,Olaparib,Adjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage III,TNBC,-,No,Negative,No,Pembrolizumab,Adjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,TNBC,-,Yes,Negative,No,Pembrolizumab,Adjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage III,TNBC,-,No,Negative,Yes,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,TNBC,-,Yes,Positive,No,Sacituzumab,Neoadjuvant,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage III,TNBC,-,No,Negative,No,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,TNBC,-,Yes,Negative,Yes,Tamoxifen,Neoadjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,TNBC,-,No,Positive,No,Tamoxifen,1st line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,TNBC,-,No,Positive,No,Tamoxifen,Adjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage III,TNBC,-,No,Negative,No,Tamoxifen,2nd+ line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HER2-low,-,No,Positive,Yes,Capecitabine,2nd+ line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HER2-low,-,Yes,Negative,Yes,Olaparib,Neoadjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HER2-low,-,Yes,Negative,No,Olaparib,2nd+ line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HER2-low,-,Yes,Positive,No,Pembrolizumab,1st line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HER2-low,-,No,Positive,Yes,Pembrolizumab,Neoadjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HER2-low,-,No,Positive,No,Pembrolizumab,Adjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HER2-low,-,Yes,Positive,No,Pembrolizumab,Adjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HER2-low,-,No,Negative,Yes,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HER2-low,-,Yes,Negative,No,Pembrolizumab,1st line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HER2-low,-,No,Positive,Yes,Pembrolizumab,Neoadjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HER2-low,-,Yes,Positive,Yes,Pembrolizumab,2nd+ line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HER2-low,-,Yes,Positive,Yes,Sacituzumab,Adjuvant,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HER2-low,-,No,Positive,Yes,Sacituzumab,Neoadjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HER2-low,-,Yes,Negative,No,Sacituzumab,Neoadjuvant,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HER2-low,-,Yes,Negative,No,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HER2-low,-,No,Positive,Yes,Tamoxifen,2nd+ line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HER2-low,-,Yes,Negative,Yes,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HER2-low,-,No,Negative,No,Tamoxifen,Neoadjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2+,-,Yes,Positive,No,Capecitabine,2nd+ line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR+/HER2+,-,No,Positive,No,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR+/HER2+,-,No,Positive,No,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR+/HER2+,-,Yes,Negative,Yes,Capecitabine,1st line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR+/HER2+,-,No,Negative,Yes,Olaparib,Neoadjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HR+/HER2+,-,Yes,Positive,No,Olaparib,Adjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HR+/HER2+,-,No,Positive,No,Pembrolizumab,2nd+ line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HR+/HER2+,-,Yes,Positive,No,Pembrolizumab,1st line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HR+/HER2+,-,Yes,Positive,No,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HR+/HER2+,-,Yes,Negative,No,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HR+/HER2+,-,No,Positive,Yes,Sacituzumab,Neoadjuvant,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HR+/HER2+,-,No,Positive,Yes,Sacituzumab,Adjuvant,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HR+/HER2+,-,No,Negative,Yes,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HR+/HER2+,-,No,Positive,Yes,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HR+/HER2+,-,No,Negative,Yes,Tamoxifen,2nd+ line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2+,-,No,Positive,No,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2+,-,No,Negative,Yes,Tamoxifen,Adjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2+,-,No,Negative,Yes,Tamoxifen,Neoadjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2+,-,Yes,Positive,No,Tamoxifen,1st line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2-,-,Yes,Positive,Yes,Capecitabine,Neoadjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR+/HER2-,-,No,Negative,No,Capecitabine,2nd+ line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR+/HER2-,-,Yes,Positive,No,Capecitabine,1st line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR+/HER2-,-,No,Positive,Yes,Olaparib,1st line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HR+/HER2-,-,Yes,Positive,Yes,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HR+/HER2-,-,No,Positive,No,Olaparib,2nd+ line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HR+/HER2-,-,Yes,Negative,Yes,Pembrolizumab,Adjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HR+/HER2-,-,No,Negative,Yes,Pembrolizumab,2nd+ line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HR+/HER2-,-,Yes,Positive,Yes,Pembrolizumab,Adjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HR+/HER2-,-,Yes,Negative,Yes,Sacituzumab,1st line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HR+/HER2-,-,Yes,Negative,Yes,Tamoxifen,Neoadjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2-,-,No,Positive,No,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2-,-,No,Positive,Yes,Tamoxifen,Adjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2-,-,Yes,Negative,No,Tamoxifen,Neoadjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2-,-,Yes,Negative,No,Tamoxifen,2nd+ line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2-,-,No,Positive,Yes,Tamoxifen,Adjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR+/HER2-,-,Yes,Positive,No,Tamoxifen,Neoadjuvant,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR-/HER2+,-,No,Negative,Yes,Capecitabine,1st line,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR-/HER2+,-,Yes,Positive,Yes,Capecitabine,Adjuvant,Category 2B,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR-/HER2+,-,Yes,Negative,Yes,Capecitabine,2nd+ line,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR-/HER2+,-,No,Positive,Yes,Capecitabine,Neoadjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,HR-/HER2+,-,No,Positive,Yes,Olaparib,2nd+ line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HR-/HER2+,-,No,Positive,Yes,Olaparib,Adjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HR-/HER2+,-,Yes,Positive,Yes,Olaparib,Adjuvant,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HR-/HER2+,-,Yes,Positive,No,Olaparib,2nd+ line,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,HR-/HER2+,-,Yes,Negative,Yes,Pembrolizumab,Neoadjuvant,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HR-/HER2+,-,Yes,Negative,No,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,HR-/HER2+,-,No,Negative,Yes,Sacituzumab,1st line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HR-/HER2+,-,Yes,Negative,No,Sacituzumab,1st line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HR-/HER2+,-,Yes,Positive,Yes,Sacituzumab,1st line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HR-/HER2+,-,Yes,Positive,Yes,Sacituzumab,2nd+ line,Category 2A,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,HR-/HER2+,-,Yes,Negative,Yes,Tamoxifen,Neoadjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR-/HER2+,-,No,Positive,Yes,Tamoxifen,Adjuvant,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR-/HER2+,-,No,Positive,No,Tamoxifen,1st line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR-/HER2+,-,No,Negative,Yes,Tamoxifen,1st line,Category 2A,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR-/HER2+,-,No,Negative,Yes,Tamoxifen,1st line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR-/HER2+,-,No,Negative,Yes,Tamoxifen,Adjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,HR-/HER2+,-,No,Positive,No,Tamoxifen,Neoadjuvant,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage IV,TNBC,-,Yes,Positive,Yes,Capecitabine,2nd+ line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,TNBC,-,No,Negative,Yes,Capecitabine,Neoadjuvant,Category 1,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,TNBC,-,No,Positive,Yes,Capecitabine,2nd+ line,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,TNBC,-,Yes,Negative,No,Capecitabine,Neoadjuvant,Category 2A,CREATE-X,2009-337호,TRUE,mg/m²,1250,119,급여,1250 mg/m²,119원
+Stage IV,TNBC,-,No,Positive,No,Olaparib,Neoadjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,TNBC,-,Yes,Positive,Yes,Olaparib,2nd+ line,Category 2A,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,TNBC,-,Yes,Positive,Yes,Olaparib,Adjuvant,Category 2B,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,TNBC,-,No,Negative,Yes,Olaparib,Adjuvant,Category 1,OlympiA,2024-153호,TRUE,mg,300,3450,급여,300 mg,"3,450원"
+Stage IV,TNBC,-,Yes,Negative,No,Pembrolizumab,1st line,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,TNBC,-,No,Positive,No,Pembrolizumab,Adjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,TNBC,-,No,Positive,Yes,Pembrolizumab,2nd+ line,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,TNBC,-,No,Positive,No,Pembrolizumab,Neoadjuvant,Category 2B,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,TNBC,-,Yes,Negative,Yes,Pembrolizumab,1st line,Category 2A,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,TNBC,-,Yes,Negative,No,Pembrolizumab,Neoadjuvant,Category 1,KEYNOTE-522,2023-338호,FALSE,mg/kg,2,48600,비급여,2.0 mg/kg,"48,600원"
+Stage IV,TNBC,-,No,Positive,Yes,Sacituzumab,1st line,Category 1,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,TNBC,-,Yes,Negative,No,Sacituzumab,1st line,Category 2B,ASCENT,2024-219호,FALSE,mg/kg,10,8350,비급여,10.0 mg/kg,"8,350원"
+Stage IV,TNBC,-,Yes,Positive,No,Tamoxifen,1st line,Category 2B,NSABP B-14,2021-150호,TRUE,mg,20,220,급여,20 mg,220원
+Stage 0,HER2-low,<11,No,Positive,Yes,TCHP,Neoadjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,HER2-low,<11,Yes,Negative,Yes,TCHP,Neoadjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,HR+/HER2+,<11,Yes,Negative,Yes,TCHP,1st line,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,HR+/HER2+,<11,No,Negative,Yes,TCHP,2nd+ line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,HR+/HER2+,<11,No,Positive,Yes,TCHP,2nd+ line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,HR+/HER2-,<11,Yes,Positive,No,TCHP,1st line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,HR+/HER2-,<11,No,Negative,Yes,TCHP,Neoadjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,HR+/HER2-,<11,Yes,Positive,No,TCHP,Neoadjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,HR+/HER2-,<11,No,Negative,No,TCHP,Neoadjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,HR+/HER2-,<11,No,Negative,Yes,TCHP,2nd+ line,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,TNBC,<11,No,Negative,No,TCHP,Adjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,TNBC,<11,Yes,Negative,No,TCHP,Adjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage 0,TNBC,<11,Yes,Positive,No,TCHP,2nd+ line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HER2-low,-,No,Positive,No,TCHP,1st line,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HER2-low,-,Yes,Negative,Yes,TCHP,Adjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HER2-low,-,No,Positive,Yes,TCHP,Neoadjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HR+/HER2+,-,Yes,Negative,No,TCHP,Neoadjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HR+/HER2+,-,Yes,Negative,No,TCHP,2nd+ line,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HR+/HER2+,-,Yes,Negative,Yes,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HR+/HER2-,11-25,Yes,Negative,Yes,TCHP,Adjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HR+/HER2-,11-25,Yes,Positive,Yes,TCHP,1st line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HR+/HER2-,11-25,Yes,Positive,Yes,TCHP,Adjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HR+/HER2-,11-25,Yes,Positive,Yes,TCHP,Adjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HR+/HER2-,11-25,Yes,Negative,Yes,TCHP,Neoadjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HR-/HER2+,-,No,Positive,Yes,TCHP,2nd+ line,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,HR-/HER2+,-,No,Positive,No,TCHP,2nd+ line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,TNBC,-,Yes,Positive,Yes,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,TNBC,-,No,Negative,No,Tamoxifen,1st line,Category 1,NSABP B-14,2021-150호,TRUE,mg,20,220,선별급여(복합요법),20 mg,220원
+Stage I,TNBC,-,No,Positive,No,TCHP,2nd+ line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage I,TNBC,-,Yes,Positive,Yes,TCHP,2nd+ line,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,HER2-low,-,Yes,Negative,Yes,TCHP,Adjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,HER2-low,-,No,Positive,Yes,TCHP,2nd+ line,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,HER2-low,-,No,Positive,Yes,TCHP,Neoadjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,HR+/HER2+,-,No,Positive,No,TCHP,1st line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,HR+/HER2+,-,No,Negative,Yes,TCHP,Adjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,HR+/HER2+,-,No,Positive,No,TCHP,Adjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,HR+/HER2+,-,No,Negative,No,TCHP,Adjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,HR+/HER2-,11-25,No,Positive,No,TCHP,Adjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,HR-/HER2+,-,Yes,Negative,No,TCHP,1st line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,HR-/HER2+,-,No,Positive,Yes,TCHP,2nd+ line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,TNBC,-,Yes,Positive,Yes,TCHP,Neoadjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,TNBC,-,Yes,Positive,Yes,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,TNBC,-,No,Negative,No,TCHP,2nd+ line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,TNBC,-,Yes,Negative,No,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,TNBC,-,Yes,Negative,No,TCHP,Adjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage II,TNBC,-,No,Positive,No,TCHP,Neoadjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,HER2-low,-,Yes,Positive,No,TCHP,Adjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,HER2-low,-,Yes,Positive,Yes,TCHP,Neoadjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,HER2-low,-,Yes,Negative,Yes,TCHP,Adjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,HR+/HER2+,-,Yes,Positive,No,TCHP,Adjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,HR+/HER2-,≥26,Yes,Negative,No,TCHP,Adjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,HR-/HER2+,-,No,Negative,No,TCHP,Neoadjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,HR-/HER2+,-,No,Positive,No,TCHP,Adjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,HR-/HER2+,-,No,Negative,Yes,TCHP,Neoadjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,HR-/HER2+,-,Yes,Negative,Yes,TCHP,2nd+ line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,TNBC,-,No,Negative,Yes,TCHP,2nd+ line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,TNBC,-,No,Negative,Yes,TCHP,2nd+ line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,TNBC,-,Yes,Negative,No,TCHP,2nd+ line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,TNBC,-,No,Positive,No,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage III,TNBC,-,No,Positive,Yes,TCHP,Adjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HER2-low,-,No,Positive,Yes,TCHP,2nd+ line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HER2-low,-,Yes,Positive,Yes,TCHP,2nd+ line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HER2-low,-,Yes,Positive,Yes,TCHP,1st line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HER2-low,-,Yes,Positive,Yes,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HER2-low,-,Yes,Positive,No,TCHP,2nd+ line,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2+,-,Yes,Positive,Yes,TCHP,2nd+ line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2+,-,No,Positive,No,TCHP,Adjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2+,-,No,Positive,Yes,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2+,-,No,Negative,No,TCHP,Adjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2+,-,Yes,Negative,No,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2+,-,Yes,Positive,No,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2-,-,Yes,Positive,No,TCHP,Adjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2-,-,Yes,Negative,No,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2-,-,Yes,Negative,Yes,TCHP,1st line,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2-,-,Yes,Negative,Yes,TCHP,Adjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR+/HER2-,-,No,Positive,Yes,TCHP,1st line,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR-/HER2+,-,No,Positive,Yes,TCHP,2nd+ line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR-/HER2+,-,No,Negative,Yes,TCHP,Neoadjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR-/HER2+,-,No,Negative,Yes,TCHP,Neoadjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,HR-/HER2+,-,Yes,Negative,No,TCHP,Adjuvant,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,TNBC,-,No,Negative,Yes,TCHP,Neoadjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,TNBC,-,No,Negative,Yes,TCHP,2nd+ line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,TNBC,-,Yes,Positive,Yes,TCHP,Adjuvant,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,TNBC,-,No,Positive,Yes,TCHP,Neoadjuvant,Category 2B,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,TNBC,-,No,Negative,Yes,TCHP,2nd+ line,Category 1,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
+Stage IV,TNBC,-,Yes,Negative,No,TCHP,1st line,Category 2A,TRYPHAENA,제공되지 않음,선별급여,복합요법,"Trastuzumab 8mg/kg, Carboplatin AUC 5, Docetaxel 75mg/m², Pertuzumab 840mg","제공되지 않음 (NCCN v2.2024 / 심평원 공고 제2021-150호, 제2020-282호)",선별급여(복합요법),-,-
