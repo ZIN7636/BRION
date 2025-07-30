@@ -11,6 +11,7 @@ df["TreatmentLine"] = pd.Categorical(df["TreatmentLine"], categories=treatment_o
 
 st.set_page_config(page_title="유방암 병기 기반 약제 추천", layout="wide")
 st.title("🧬 유방암 병기 기반 치료전략 및 약제 추천 AI")
+st.markdown("---")
 
 st.header("1️⃣ 병기 및 병리 정보 입력")
 
@@ -70,7 +71,7 @@ elif er == "Neg (-)" and pr == "Neg (-)" and her2 == "Pos (+)":
 elif er == "Neg (-)" and pr == "Neg (-)" and her2 == "Neg (-)":
     subtype = "TNBC"
 
-st.markdown(f"**병기:** {stage} | **아형:** {subtype}")
+st.markdown(f"#### **병기:** {stage} | **아형:** {subtype}")
 
 # 필터링
 filtered_df = df[
@@ -82,7 +83,7 @@ filtered_df = df[
 ].sort_values("TreatmentLine")
 
 st.divider()
-st.header("2️⃣ 치료전략 및 약제 추천 결과")
+st.header("2️⃣ 치료전략 및 약제 추천 결과\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Based on 2025 NCCN Guideline)")
 
 if filtered_df.empty:
     st.warning("조건에 맞는 추천 약제가 없습니다. 다른 조건을 선택해보세요.")
@@ -90,6 +91,7 @@ else:
     for i, row in filtered_df.iterrows():
         expander_title = f"💊 약제명: {row['RecommendedRegimen']} | 🩺 치료 단계: {row['TreatmentLine']}"
         with st.expander(expander_title, expanded=True):
+            st.markdown("---")
             html_block = f"""
             <div style='line-height: 1.8; font-size: 18px'>
                 <p><strong>💊 약제명:</strong> {row['RecommendedRegimen']}</strong></p>
