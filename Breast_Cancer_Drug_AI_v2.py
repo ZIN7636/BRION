@@ -1,16 +1,17 @@
-
 import streamlit as st
 import pandas as pd
 
-# CSV 파일 로드
-df = pd.read_csv("nccn_breast_stage_drug_map_final_500plus.csv", encoding='cp949')
+# CSV 파일 로드 (인코딩: 'cp949')
+df = pd.read_csv("final_brion_data.csv", encoding='cp949')
+
+
 
 # 치료 단계 순서 정의 및 정렬
 treatment_order = ["Neoadjuvant", "Adjuvant", "1st line", "2nd+ line", "Recurrent"]
 df["TreatmentLine"] = pd.Categorical(df["TreatmentLine"], categories=treatment_order, ordered=True)
 
 st.set_page_config(page_title="유방암 병기 기반 약제 추천", layout="wide")
-st.title("🧬 유방암 병기 기반 치료전략 및 약제 추천 AI")
+st.title("🧬 유방암 병기 기반 약제 추천 AI")
 st.markdown("---")
 
 st.header("1️⃣ 병기 및 병리 정보 입력")
@@ -42,9 +43,11 @@ with col3:
 t = t_mapping[t_raw]
 n = n_mapping[n_raw]
 
+# OncotypeDx, gBRCA, PDL1에 대한 selectbox 생성 (NaN 값 제외)
 oncotype = st.selectbox("OncotypeDx 조건", sorted(df['OncotypeDx'].dropna().unique()))
 gbrca = st.selectbox("gBRCA 여부", sorted(df['gBRCA'].dropna().unique()))
-pdl1 = st.selectbox("PD-L1 상태", sorted(df['PDL1'].dropna().unique()))
+pdl1 = st.selectbox("PDL1 상태", sorted(df['PDL1'].dropna().unique()))
+
 
 # 병기 계산
 stage = "병기 계산 불가"
@@ -59,6 +62,7 @@ elif t == "T3" or n == "N2" or n == "N3":
 elif t == "T0" and n == "N0" and "M0" in m:
     stage = "Stage 0"
 
+
 # 아형 분류
 subtype = "-"
 if er == "Pos (+)" or pr == "Pos (+)":
@@ -71,7 +75,8 @@ elif er == "Neg (-)" and pr == "Neg (-)" and her2 == "Pos (+)":
 elif er == "Neg (-)" and pr == "Neg (-)" and her2 == "Neg (-)":
     subtype = "TNBC"
 
-st.markdown(f"#### **병기:** {stage} | **아형:** {subtype}")
+st.markdown(f"#### **계산된 병기:** {stage} | **계산된 아형:** {subtype}")
+
 
 # 필터링
 filtered_df = df[
@@ -83,64 +88,56 @@ filtered_df = df[
 ].sort_values("TreatmentLine")
 
 st.divider()
-st.header("2️⃣ 치료전략 및 약제 추천 결과\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Based on 2025 NCCN Guideline)")
+st.header("2️⃣ 치료전략 및 약제 추천 결과")
 
 if filtered_df.empty:
-    st.warning("조건에 맞는 추천 약제가 없습니다. 다른 조건을 선택해보세요.")
+    st.warning("선택된 조건에 맞는 추천 약제가 없습니다. 다른 조건을 선택해보세요.")
 else:
     for i, row in filtered_df.iterrows():
-        expander_title = f"💊 약제명: {row['RecommendedRegimen']} | 🩺 치료 단계: {row['TreatmentLine']}"
+        # 각 결과에 대한 정보창 제목 설정
+        expander_title = f"🩺 치료 단계: {row['TreatmentLine']} | 💊 약제명: {row['RecommendedRegimen']}"
         with st.expander(expander_title, expanded=True):
             st.markdown("---")
+            
+            # '1회_용량' 컬럼의 복합적인 '-' 값을 처리하는 새 로직
+            dose_per_session_raw = row['1회_용량(160cm/60kg)_mg']
+            
+            # 값이 문자열일 경우에만 처리
+            if isinstance(dose_per_session_raw, str):
+                # 1. 쉼표로 분리하고 각 항목의 공백 제거
+                items = [item.strip() for item in dose_per_session_raw.split(',')]
+                # 2. 각 항목을 확인하여 '-'를 '정보 없음'으로 변경
+                processed_items = ['정보 없음' if item == '-' else item for item in items]
+                # 3. 다시 쉼표와 공백으로 합치기
+                dose_per_session = ', '.join(processed_items)
+            else:
+                # 문자열이 아닌 경우(숫자, 빈 값 등)는 그대로 사용
+                dose_per_session = dose_per_session_raw
+
+            # 이모티콘과 한글 레이블을 포함하도록 HTML 블록 수정
             html_block = f"""
-            <div style='line-height: 1.8; font-size: 18px'>
-                <p><strong>💊 약제명:</strong> {row['RecommendedRegimen']}</strong></p>
+            <div style='line-height: 2.0; font-size: 16px'>
                 <p><strong>🩺 치료 단계:</strong> {row['TreatmentLine']}</p>
+                <p><strong>💊 약제명:</strong> {row['RecommendedRegimen']}</p>
                 <p><strong>📌 NCCN 권고 등급:</strong> {row['NCCN_Category']}</p>
                 <p><strong>🧪 임상시험:</strong> {row['Trial']}</p>
             """
-            if 'Notes' in row and pd.notna(row['Notes']):
-                html_block += f"<p><strong>📝 비고:</strong> {row['Notes']}</p>"
 
+            # 급여여부 스타일 적용
             coverage_text = str(row.get("급여여부", "")).strip()
-            if coverage_text in ["급여", "선별급여(복합요법)", "True", "true", "TRUE"]:
-                html_block += f"<p>✅ <strong>{coverage_text}</strong></p>"
+            if coverage_text in ["급여", "선별급여(복합요법)"]:
+                html_block += f"<p><strong>✅ 급여여부:</strong> {coverage_text}</p>"
             elif coverage_text == "비급여":
-                html_block += "<p>❌ <strong>비급여</strong></p>"
+                html_block += "<p><strong>❌ 급여여부:</strong> 비급여</p>"
             else:
-                html_block += "<p>ℹ️ <strong>급여 정보 없음</strong></p>"
+                html_block += f"<p><strong>ℹ️ 급여여부:</strong> {coverage_text or '정보 없음'}</p>"
 
-            avg_bsa = 1.6
-            avg_weight = 60.0
-
-            try:
-                dosage_val = float(row.get("Dosage_Value", 0))
-                dosage_type = row.get("Dosage_Type", "")
-                unit_price = float(row.get("Unit_Price", 0))
-            except:
-                dosage_val, unit_price = 0, 0
-
-            dose_text = "용량 정보 없음"
-            total_dose = 0
-            if dosage_type == "mg/kg":
-                total_dose = dosage_val * avg_weight
-                dose_text = f"{dosage_val} mg/kg → {total_dose:.1f} mg"
-            elif dosage_type == "mg/m²":
-                total_dose = dosage_val * avg_bsa
-                dose_text = f"{dosage_val} mg/m² → {total_dose:.1f} mg"
-            elif dosage_type == "mg":
-                total_dose = dosage_val
-                dose_text = f"{total_dose:.1f} mg"
-
-            if total_dose > 0 and unit_price > 0:
-                total_cost = int(total_dose * unit_price)
-                html_block += f"""
-                    <p>💉 <strong>권장 용량:</strong> {dose_text}</p>
-                    <p>💊 <strong>단가:</strong> {unit_price:,.0f}원/1mg</p>
-                    <p>💰 <strong>예상 비용:</strong> 약 {total_cost:,}원</p>
-                """
+            # 용량 및 단가 정보 스타일 적용
+            html_block += f"<p><strong>💉 권장 용량:</strong> {row['권장용량_표시']}</p>"
+            html_block += f"<p><strong>💊 1회 용량(160cm/60kg)mg:</strong> {dose_per_session}</p>"
+            html_block += f"<p><strong>💰 최종 단가:</strong> {row['단가_표시']}</p>"
 
             html_block += "</div>"
             st.markdown(html_block, unsafe_allow_html=True)
-
+            
         st.markdown("---")
