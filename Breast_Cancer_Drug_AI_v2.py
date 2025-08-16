@@ -135,7 +135,7 @@ else:
             # 용량 및 단가 정보 스타일 적용
             html_block += f"<p><strong>💉 권장 용량:</strong> {row['권장용량_표시']}</p>"
             html_block += f"<p><strong>💊 1회 용량(160cm/60kg)mg:</strong> {dose_per_session}</p>"
-            html_block += f"<p><strong>💰 최종 단가:</strong> {row['단가_표시']}</p>"
+            html_block += f"<p><strong>💰 최종 비용:</strong> {row['단가_표시']}</p>"
 
             html_block += "</div>"
             st.markdown(html_block, unsafe_allow_html=True)
